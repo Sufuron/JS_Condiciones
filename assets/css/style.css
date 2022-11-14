@@ -244,6 +244,18 @@ h2 {
   padding: 0.5rem;
   border-radius: 20px;
 }
+.card-contrasena .card-design #passOne:hover {
+  background-color: black;
+  color: white;
+}
+.card-contrasena .card-design #passTwo:hover {
+  background-color: black;
+  color: white;
+}
+.card-contrasena .card-design #passThree:hover {
+  background-color: black;
+  color: white;
+}
 .card-contrasena p {
   margin-top: 1rem;
 }

@@ -272,6 +272,22 @@ h2 {
       padding: 0.5rem;
       border-radius: 20px;
     }
+
+    & #passOne:hover {
+      background-color: black;
+      color: white;
+    }
+
+    & #passTwo:hover {
+      background-color: black;
+      color: white;
+    }
+
+    & #passThree:hover {
+      background-color: black;
+      color: white;
+    }
+
   }
 
   & p {
