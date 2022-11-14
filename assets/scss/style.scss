@@ -274,20 +274,25 @@ h2 {
     }
 
     & #passOne:hover {
+      padding: 0.7rem;
+      transition: 0.7s;
       background-color: black;
       color: white;
     }
 
     & #passTwo:hover {
+      padding: 0.7rem;
+      transition: 0.7s;
       background-color: black;
       color: white;
     }
 
     & #passThree:hover {
+      padding: 0.7rem;
+      transition: 0.7s;
       background-color: black;
       color: white;
     }
-
   }
 
   & p {
@@ -306,6 +311,8 @@ h2 {
   }
 
   & #btn:hover {
+    padding: 1.3rem;
+    transition: 1s;
     background-color: black;
     color: white;
   }

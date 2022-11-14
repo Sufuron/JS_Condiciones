@@ -245,14 +245,20 @@ h2 {
   border-radius: 20px;
 }
 .card-contrasena .card-design #passOne:hover {
+  padding: 0.7rem;
+  transition: 0.7s;
   background-color: black;
   color: white;
 }
 .card-contrasena .card-design #passTwo:hover {
+  padding: 0.7rem;
+  transition: 0.7s;
   background-color: black;
   color: white;
 }
 .card-contrasena .card-design #passThree:hover {
+  padding: 0.7rem;
+  transition: 0.7s;
   background-color: black;
   color: white;
 }
@@ -269,6 +275,8 @@ h2 {
   border-radius: 50px;
 }
 .card-contrasena #btn:hover {
+  padding: 1.3rem;
+  transition: 1s;
   background-color: black;
   color: white;
 }
