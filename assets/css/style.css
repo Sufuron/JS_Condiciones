@@ -232,9 +232,35 @@ h2 {
 .card-contrasena {
   text-align: center;
 }
-.card-contrasena h2 {
-  margin-bottom: 5rem;
+.card-contrasena .card-design #passOne {
+  padding: 0.5rem;
+  border-radius: 20px;
 }
+.card-contrasena .card-design #passTwo {
+  padding: 0.5rem;
+  border-radius: 20px;
+}
+.card-contrasena .card-design #passThree {
+  padding: 0.5rem;
+  border-radius: 20px;
+}
+.card-contrasena p {
+  margin-top: 1rem;
+}
+.card-contrasena h2 {
+  margin-bottom: 2rem;
+}
+.card-contrasena #btn {
+  margin-top: 1rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 50px;
+}
+.card-contrasena #btn:hover {
+  background-color: black;
+  color: white;
+}
+
 footer {
   padding: 1em 0;
   color: rgb(253, 253, 253);

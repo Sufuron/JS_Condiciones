@@ -248,7 +248,6 @@ h2 {
     background-color: black;
     color: white;
   }
-
 }
 
 .hidden {
@@ -258,13 +257,42 @@ h2 {
 .card-contrasena {
   text-align: center;
 
-  &
+  & .card-design {
+    & #passOne {
+      padding: 0.5rem;
+      border-radius: 20px;
+    }
 
-  & h2 {
-    margin-bottom: 5rem;
+    & #passTwo {
+      padding: 0.5rem;
+      border-radius: 20px;
+    }
+
+    & #passThree {
+      padding: 0.5rem;
+      border-radius: 20px;
+    }
   }
 
-  & selec
+  & p {
+    margin-top: 1rem;
+  }
+
+  & h2 {
+    margin-bottom: 2rem;
+  }
+
+  & #btn {
+    margin-top: 1rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 50px;
+  }
+
+  & #btn:hover {
+    background-color: black;
+    color: white;
+  }
 }
 
 footer {
