@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico:600");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Pacifico", cursive;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  background-color: antiquewhite;
+}
+
+nav {
+  background: rgba(8, 8, 8, 0.753);
+  text-align: center;
+  padding: 0.7em 0;
+  width: 100%;
+  margin-bottom: auto;
+
+  & ul {
+    & .link {
+      display: inline-block;
+      padding: 0px 20px;
+    }
+
+    & li,
+    a,
+    button {
+      padding: 20px 4%;
+      color: white;
+      font-weight: 500;
+      font-size: 17px;
+      text-decoration: none;
+
+      & a:hover {
+        color: rgb(208, 224, 115);
+      }
+    }
+  }
+}
+
+.card {
+  position: relative;
+  width: 400px;
+  height: 350px;
+  margin: 20px;
+
+  & .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.8s;
+  }
+
+  & .front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px black;
+
+    & h3 {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 45px;
+      line-height: 45px;
+      color: azure;
+      background-color: rgba(0, 0, 0, 0.605);
+      text-align: center;
+    }
+  }
+
+  & img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  & .back {
+    transform: perspective(600px) rotateY(180deg);
+    background-color: rgba(3, 35, 54, 0.692);
+    padding: 15px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0, 5px 10px black;
+
+    & h3 {
+      color: rgb(161, 168, 57);
+      font-size: 30px;
+      margin-top: 20px;
+      letter-spacing: 2px;
+    }
+
+    & p {
+      letter-spacing: 1px;
+    }
+
+    & .link {
+      border-top: solid 1px white;
+      height: 50px;
+      line-height: 50px;
+
+      & a {
+        font-size: 30px;
+        color: rgb(137, 160, 34);
+      }
+      & a:hover {
+        color: black;
+      }
+    }
+  }
+}
+
+.card:hover {
+  & .front {
+    transform: perspective(600px) rotateY(180deg);
+  }
+
+  & .back {
+    transform: perspective(600px) rotateY(360deg);
+  }
+}
+
+.card-border {
+  position: relative;
+  width: 450px;
+  height: 580px;
+  margin: 20px;
+
+  & .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  & .front {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.452);
+
+    & h3 {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 45px;
+      line-height: 45px;
+      color: azure;
+      background-color: rgba(39, 38, 38, 0.295);
+      text-align: center;
+    }
+  }
+
+  & img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.imgBlueBorder {
+  border: 4px solid rgb(99, 11, 4);
+}
+
+.card-sticker {
+  position: relative;
+  width: 350px;
+  height: 300px;
+  margin: 20px;
+
+  & .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+
+    & input {
+      text-align: center;
+      position: absolute;
+      margin-top: 76%;
+      border-radius: 20px;
+      margin-left: 12%;
+    }
+  }
+
+  & .front {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.685);
+
+    & h3 {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 45px;
+      line-height: 45px;
+      color: azure;
+      background-color: rgba(39, 38, 38, 0.534);
+      text-align: center;
+    }
+  }
+
+  & img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+h2 {
+  text-align: center;
+  width: 100%;
+}
+
+.button_sticker {
+  width: 100%;
+  text-align: center;
+
+  & p {
+    margin: 10px;
+  }
+
+  & h4 {
+    color: red;
+    margin-bottom: 13px;
+    font-size: 22px;
+  }
+
+  .stickerButton {
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: azure;
+    border-radius: 10px;
+  }
+
+  .stickerButton:hover {
+    background-color: black;
+    color: white;
+  }
+
+}
+
+.hidden {
+  display: none !important;
+}
+
+.card-contrasena {
+  text-align: center;
+
+  &
+
+  & h2 {
+    margin-bottom: 5rem;
+  }
+
+  & selec
+}
+
+footer {
+  padding: 1em 0;
+  color: rgb(253, 253, 253);
+  background: rgba(8, 8, 8, 0.753);
+  text-align: center;
+  width: 100%;
+  margin-top: auto;
+}

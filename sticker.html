@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Desafio Stickers</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="link">
+            <li>
+                <a href="index.html">Inicio</a>
+                <a href="border.html">Desafio 1</a>
+                <a href="contrasena.html">Desafio 3</a>
+            </li>
+        </ul>
+    </nav>
+
+    <h2>Puedes llevar maximo: 10 stickers</h2>
+
+    <div class="card-sticker">
+        <div class="face front">
+            <img src="assets/img/sticker1.jpg" alt="vikingo guerrero">
+            <h3></h3>
+            <input id="stickerI1" type="number" placeholder="Elige cantidad" value="1" min="1" />
+        </div>
+    </div>
+
+    <div class="card-sticker">
+        <div class="face front">
+            <img src="assets/img/sticker2.jpg" alt="vikingo todo poderoso">
+            <h3></h3>
+            <input id="stickerI2" type="number" placeholder="Elige cantidad" value="1" min="1" />
+        </div>
+    </div>
+
+    <div class="card-sticker">
+        <div class="face front">
+            <img src="assets/img/sticker3.jpg" alt="vikingo fiestero">
+            <h3></h3>
+            <input id="stickerI3" type="number" placeholder="Elige cantidad" value="1" min="1" />
+        </div>
+    </div>
+
+    <div class="button_sticker">
+        <p>Total seleccionado <span id="totalSticker">3</span></p>
+        <h4 class="warning hidden">Llevas demasiados stickers</h4>
+        <button class="stickerButton">Agregar</button>
+    </div>
+
+    <footer>© 2021-2022 Desafio, Todos los derechos reservados.</footer>
+
+    <script src="assets/js/sticker.js"></script>
+</body>
+
+</html>
